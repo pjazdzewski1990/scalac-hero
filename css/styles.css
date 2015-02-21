@@ -16,6 +16,9 @@ span {
   height: 65px;
 }
 
+#hero-image {
+  float: left;
+}
 #skills-list {
   list-style-type: none;
 }
