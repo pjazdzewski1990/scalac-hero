@@ -1,0 +1,21 @@
+span {
+  margin: 25px 25px 25px 25px;
+}
+
+.grey {
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* msie */
+}
+.half {
+  float: left;
+  width: 50%;
+}
+.skill-img {
+  float: left;
+  width: 120px;
+  height: 65px;
+}
+
+#skills-list {
+  list-style-type: none;
+}
