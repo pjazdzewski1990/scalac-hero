@@ -6,14 +6,17 @@ span {
   opacity: 0.4;
   filter: alpha(opacity=40); /* msie */
 }
-.half {
+.item {
   float: left;
-  width: 50%;
+  margin-right: 25px;
 }
 .skill-img {
   float: left;
   width: 120px;
   height: 65px;
+}
+.clearing {
+  clear: both;
 }
 
 #hero-image {
