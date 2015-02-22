@@ -27,6 +27,7 @@ Proin convallis metus sem. Phasellus sit amet leo non eros facilisis fringilla. 
       Embark on the IT Quest [<a href="mailto:info@scalac.io">or just mail us</a>]
       <hr class="clearing"/>
     </span>
+    
     <span>
       <div class="item">Name your hero: </div>
       <div class="item">
@@ -34,13 +35,34 @@ Proin convallis metus sem. Phasellus sit amet leo non eros facilisis fringilla. 
       </div>
       <hr class="clearing"/>
     </span>
-    <div id="hero-image">
-      <img src="img/blue_mage.gif"></img>
+
+    <div id="tabs-container">
+      <ul class="tabs-menu">
+        <li class="current"><a href="#tab-1">Backend Fighter</a></li>
+        <li><a href="#tab-2">Frontend Tamer</a></li>
+      </ul>
+      <div class="tab">
+        <div id="tab-1" class="tab-content">
+          <div id="hero-image">
+            <img src="img/backend.gif"></img>
+          </div>
+          <div id="hero-skills" class="half">
+            <ul id="skills-list-backend" class="skills-list"></ul>
+          </div>
+          <hr class="clearing"/>
+        </div>
+        <div id="tab-2" class="tab-content">
+          <div id="hero-image">
+            <img src="img/frontend.gif"></img>
+          </div>
+          <div id="hero-skills" class="half">
+            <ul id="skills-list-frontend"  class="skills-list"></ul>
+          </div>
+          <hr class="clearing"/>
+        </div>
+      </div>
     </div>
-    <div id="hero-skills" class="half">
-      <ul id="skills-list"></ul>
-    </div>
-    <hr class="clearing"/>
+  
     <span>
       <div>Email to contact you: </div>
       <div>
@@ -48,6 +70,7 @@ Proin convallis metus sem. Phasellus sit amet leo non eros facilisis fringilla. 
       </div>
       <hr class="clearing"/>
     </span>
+  
     <span>
       <span>
         <input type="submit" value="Join the Team" id="submit">

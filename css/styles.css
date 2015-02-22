@@ -22,6 +22,6 @@ span {
 #hero-image {
   float: left;
 }
-#skills-list {
+.skills-list {
   list-style-type: none;
 }
